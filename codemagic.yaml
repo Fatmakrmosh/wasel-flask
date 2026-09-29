@@ -2,7 +2,5 @@ workflows:
   wasel-app-workflow:
     name: Wasel App Build
     scripts:
-      - name: Setup environment
-        script: echo "Setting up project environment..."
       - name: Install requirements
         script: pip install Flask
